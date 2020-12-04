@@ -51,7 +51,7 @@ OK - Started application at context path /docs
 
 ##############################################################
 See working files:--
-
+```
 [root@swarm01 my_work_space]# cat /usr/share/tomcat/conf/tomcat.conf
 # System-wide configuration file for tomcat services
 # This will be loaded by systemd as an environment file,
@@ -106,8 +106,8 @@ SECURITY_MANAGER="false"
 # put your own definitions here
 # (i.e. LD_LIBRARY_PATH for some jdbc drivers)
 ###################END OF FILE#################
-
-
+```
+```
 [root@swarm01 my_work_space]# cat /usr/share/tomcat/conf/tomcat-users.xml
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
@@ -119,3 +119,4 @@ SECURITY_MANAGER="false"
   <user username="admin" password="admin" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>
 </tomcat-users>
 ################################################
+```
