@@ -1,4 +1,4 @@
-# niru-tomcat
+# Niru-tomcat
 
 How to Install tomcat.
 prerequisite java need to be installed.
