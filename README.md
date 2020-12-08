@@ -1,4 +1,19 @@
 # Niru-tomcat
+
+```
+Tomcat in Docker Container
+
+docker pull tutum/tomcat
+docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tutum/tomcat
+
+
+
+
+
+
+
+
+
 ```
 How to Install tomcat.
 prerequisite java need to be installed.
