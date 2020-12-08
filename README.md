@@ -1,7 +1,8 @@
 # Niru-tomcat
-
+```
 How to Install tomcat.
 prerequisite java need to be installed.
+```
 
 sudo yum install tomcat -y
 sudo vi /usr/share/tomcat/conf/tomcat.conf  # add below parametesrs
@@ -120,3 +121,13 @@ SECURITY_MANAGER="false"
 </tomcat-users>
 ################################################
 ```
+##########################################################
+Installtion of Tomcat 8
+sudo yum install java-1.7.0-openjdk-devel
+groupadd tomcat
+sudo useradd -M -s /bin/nologin -g tomcat -d /opt/tomcat tomcat
+yum install wget
+wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.60/bin/apache-tomcat-8.5.60.tar.gz
+
+
+
