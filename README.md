@@ -5,14 +5,10 @@ Tomcat in Docker Container
 
 docker pull tutum/tomcat
 docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tutum/tomcat
-
-
-
-
-
-
-
-
+Then login: http://192.168.56.60:8080
+ID: admin
+PWD: mypass
+====================
 
 ```
 How to Install tomcat.
