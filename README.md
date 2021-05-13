@@ -60,6 +60,27 @@ Start Microservice /docs
 OK - Started application at context path /docs
 [root@swarm01 my_work_space]#
 ```
+```
+Some USeful RestAPi Calls commands
+http://localhost:8080/manager/status
+http://localhost:8080/manager/status/all
+http://localhost:8080/manager/status?XML=true
+http://localhost:8080/manager/status/all?XML=true
+http://localhost:8080/manager/text/vminfo
+http://localhost:8080/manager/text/threaddump
+http://localhost:8080/manager/text/findleaks[?statusLine=[true|false]]
+http://localhost:8080/manager/text/undeploy?path=/examples
+http://localhost:8080/manager/text/stop?path=/examples
+http://localhost:8080/manager/text/start?path=/examples
+http://localhost:8080/manager/text/expire?path=/examples&idle=num
+http://localhost:8080/manager/text/resources[?type=xxxxx]
+http://localhost:8080/manager/text/serverinfo
+http://localhost:8080/manager/text/reload?path=/examples
+http://localhost:8080/manager/text/deploy?config=file:/path/context.xml&war=file:/path/bar.war
+http://localhost:8080/manager/text/deploy?config=file:/path/context.xml
+
+```
+
 
 ##############################################################
 See working files:--
