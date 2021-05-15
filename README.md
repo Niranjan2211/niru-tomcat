@@ -60,6 +60,9 @@ Start Microservice /docs
 OK - Started application at context path /docs
 [root@swarm01 my_work_space]#
 ```
+```
+curl -s -u admin:admin "http://192.168.9.86:8080/manager/status?XML=true" > 2.xml
+```
 
 ##############################################################
 See working files:--
